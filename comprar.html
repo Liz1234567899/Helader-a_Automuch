@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="estilo_comprar.css">
+</head>
+<body>
+    <br><br>
+    <a href="Index.html" class="buton">Volver a menu</a>
+    <br><br><br>
+    <div class="container">
+        <h2>Formulario de Pedido</h2>
+        <form action="procesar_pedido.php" method="post">
+            <label for="tipo">Sabor de helado</label>
+            <select id="tipo" name="tipo">
+                <option value="seleciones una option">Seleciones una opcion</option>
+                <option value="cono">Naranja</option>
+                <option value="vaso">Moras</option>
+                <option value="vaso">Mango</option>
+                <option value="vaso">Chocolate</option>
+                <option value="vaso">Vainilla</option>
+                <option value="vaso">Fresa</option>
+            </select>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" required>
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" name="tipo">
+                <option value="seleciones una option">Seleciones una opcion</option>
+                <option value="cono">Cono</option>
+                <option value="vaso">Vaso</option>
+            </select>
+            <label for="sabor">Direccion</label>
+            <input type="text" id="sabor" name="Direccion" required><br><br><br>
+            <a href="gracias_compra.html" class="styled-button">Realizar pedido</a>
+
+        </form>
+    </div>
+</body>
+</html>

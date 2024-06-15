@@ -1,0 +1,52 @@
+body{
+    background-image: url(fonof_much.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.aliniacion{
+    display: flex;
+    margin-top: -70px;
+    margin-left: 430px;
+}
+
+.imagen{
+    width: 750px;
+    height: 750px;
+}
+
+
+
+.menu{
+    padding: 10px;
+    margin-left: 350px;
+}
+
+h4{
+    color: black;
+}
+
+.texto{
+    color: #3D65DC;
+    margin-top: -50px;
+    padding: 50px;
+    text-align: justify;
+
+}
+
+.btn-outline-light {
+    color: white;
+    background-color: #DB4E65;
+    margin-top: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

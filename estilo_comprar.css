@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #80DBF9;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #14B9F2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(234, 5, 255, 0.1);
+}
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.styled-button {
+    background-color: #084777;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 120px;
+}
+
+.styled-button:hover {
+    background-color: #117DB2;
+}
+
+.buton {
+    background-color: #084777;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buton:hover {
+    background-color: #117DB2;
+}
